@@ -1,5 +1,5 @@
 "use client";
-import { StateBasedAnimate } from "@abdullah-altun/react-animation-library/client";
+import { StateBasedAnimate } from "@abdullah-altun/react-animation-library";
 
 export function StateBasedToggleDemo() {
   return (

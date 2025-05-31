@@ -1,7 +1,7 @@
 import {
   StateBasedAnimate,
   StaggeredAnimate,
-} from "@abdullah-altun/react-animation-library/client";
+} from "@abdullah-altun/react-animation-library";
 import { ChevronDown } from "lucide-react";
 import { Menubar } from "radix-ui";
 

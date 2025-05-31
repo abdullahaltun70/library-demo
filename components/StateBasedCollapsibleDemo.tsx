@@ -1,7 +1,7 @@
 import {
   RadixAnimate,
   StateBasedAnimate,
-} from "@abdullah-altun/react-animation-library/client";
+} from "@abdullah-altun/react-animation-library";
 import { ChevronDown } from "lucide-react";
 import * as Accordion from "@radix-ui/react-accordion";
 

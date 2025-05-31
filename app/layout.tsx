@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 // import { StrictMode } from "react";
 import { Theme } from "@radix-ui/themes";
+import "@abdullah-altun/react-animation-library/styles.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

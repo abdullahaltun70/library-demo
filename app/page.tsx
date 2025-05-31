@@ -5,7 +5,7 @@ import {
   Animate,
   ModernAnimate,
   InteractiveAnimate,
-} from "@abdullah-altun/react-animation-library/client";
+} from "@abdullah-altun/react-animation-library";
 
 // Import types for better TypeScript support
 
@@ -187,7 +187,7 @@ export default function AnimationShowcase() {
                   type: "fade",
                   duration: 0.6,
                   easing: "cubic-bezier(0.4, 0, 0.2, 1)",
-                  trigger: "visible",
+                  trigger: "mount",
                 }}
               >
                 <DemoBox>Modern Fade</DemoBox>

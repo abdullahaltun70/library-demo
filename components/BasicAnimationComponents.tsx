@@ -1,4 +1,4 @@
-import Animate from "@abdullah-altun/react-animation-library/client";
+import Animate from "@abdullah-altun/react-animation-library";
 import { Section } from "./Section";
 import React, { Component } from "react";
 import { ComponentGrid } from "./ComponentGrid";

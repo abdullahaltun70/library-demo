@@ -1,4 +1,4 @@
-import { StaggeredAnimate } from "@abdullah-altun/react-animation-library/client";
+import { StaggeredAnimate } from "@abdullah-altun/react-animation-library";
 import { Card, Flex, Avatar, Text } from "@radix-ui/themes";
 
 export function StaggeredAnimateDemo() {

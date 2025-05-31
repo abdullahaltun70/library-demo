@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@abdullah-altun/react-animation-library": "^0.0.7",
+    "@abdullah-altun/react-animation-library": "^0.1.0",
     "@radix-ui/react-accordion": "^1.2.11",
     "@radix-ui/react-dialog": "^1.1.14",
     "@radix-ui/react-dropdown-menu": "^2.1.15",

@@ -2,7 +2,7 @@ import {
   StateBasedAnimate,
   RadixAnimate,
   StaggeredAnimate,
-} from "@abdullah-altun/react-animation-library/client";
+} from "@abdullah-altun/react-animation-library";
 import { User, ChevronDown, Mail, Bell, Settings, LogOut } from "lucide-react";
 import { DropdownMenu } from "radix-ui";
 

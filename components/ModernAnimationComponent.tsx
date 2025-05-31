@@ -1,4 +1,4 @@
-import { ModernAnimate } from "@abdullah-altun/react-animation-library/client";
+import { ModernAnimate } from "@abdullah-altun/react-animation-library";
 import React, { Component } from "react";
 import { ComponentGrid } from "./ComponentGrid";
 import { DemoBox } from "./DemoBox";

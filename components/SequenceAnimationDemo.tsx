@@ -1,7 +1,7 @@
 import {
   AnimationSequence,
   SequenceAnimate,
-} from "@abdullah-altun/react-animation-library/client";
+} from "@abdullah-altun/react-animation-library";
 import { DemoBox } from "./DemoBox";
 
 export function SequenceAnimateDemo() {
