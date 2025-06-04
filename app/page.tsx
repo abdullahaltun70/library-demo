@@ -13,7 +13,11 @@ import { ComponentGrid } from "@/components/ComponentGrid";
 import { DemoBox } from "@/components/DemoBox";
 import { DemoCard } from "@/components/DemoCard";
 import { SequenceAnimateDemo } from "@/components/SequenceAnimationDemo";
-import { StaggeredAnimateDemo } from "@/components/StaggeredAnimationDemo";
+import {
+  StaggeredAnimateDemoCentreOut,
+  StaggeredAnimateDemoForward,
+  StaggeredAnimateDemoReverse,
+} from "@/components/StaggeredAnimationDemo";
 import { StateBasedCollapsibleDemo } from "@/components/StateBasedCollapsibleDemo";
 import { StateBasedToggleDemo } from "@/components/StateBasedToggleDemo";
 import { RadixDropdownDemo } from "../components/RadixDropdownDemo";
@@ -246,11 +250,26 @@ export default function AnimationShowcase() {
             </DemoCard>
 
             <DemoCard
-              title="StaggeredAnimate"
+              title="StaggeredAnimate Forward"
               description="Staggered child animations"
               wide
             >
-              <StaggeredAnimateDemo />
+              <StaggeredAnimateDemoForward />
+            </DemoCard>
+            <DemoCard
+              title="StaggeredAnimate Center Out"
+              description="Staggered child animations"
+              wide
+            >
+              <StaggeredAnimateDemoCentreOut />
+            </DemoCard>
+
+            <DemoCard
+              title="StaggeredAnimate Reverse"
+              description="Staggered child animations"
+              wide
+            >
+              <StaggeredAnimateDemoReverse />
             </DemoCard>
           </ComponentGrid>
         </Section>
